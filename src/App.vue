@@ -2,6 +2,7 @@
 <div class="main-container">
   <h1>Countries</h1>
   <country-list :countries = "countries"></country-list>
+  <country-detail :country='selectedCountry'></country-detail>
 
 </div>
 </template>
